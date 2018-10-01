@@ -9,3 +9,4 @@ class Shape {
 }
 let userKnoife = Shape(numberOfSides: 5)
 print(userKnoife.simpleDesc)
+print ("fug")
