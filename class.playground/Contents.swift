@@ -4,9 +4,10 @@ import UIKit
 class Shape {
     var numberOfSides = 0
     func simpleDesc() -> String {
-        return "its got \(numberOfSides) sides"
+        return "fug fug shpae go t \(numberOfSides)sodes"
     }
 }
-let userKnoife = Shape(numberOfSides: 5)
-print(userKnoife.simpleDesc)
-print ("fug")
+var gape = Shape()
+gape.numberOfSides = 7
+var shapDesc = gape.simpleDesc()
+print (shapDesc)
