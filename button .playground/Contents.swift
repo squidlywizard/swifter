@@ -41,7 +41,7 @@ sampleButton.setTitle("click here", for: .normal)
 sampleButton.backgroundColor = .magenta
 sampleButton.addTarget(guess, action: #selector(guess.pickString), for: .touchUpInside)
 //no parensth wo talk to dinosuar languages
-currentView.backgroundColor = .green
+currentView.backgroundColor = .purple
 currentView.addSubview(sampleButton)
 
 PlaygroundPage.current.liveView = currentView
